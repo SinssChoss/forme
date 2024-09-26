@@ -1,0 +1,34 @@
+
+
+<!doctype html>
+<html>
+<head>
+<title>Pagina Principal</title>
+<script>
+function Blink()
+{
+var ElemsBlink = document.getElementsByTagName('blink');
+for(var i=0;i<ElemsBlink.length;i++)
+ElemsBlink[i].style.visibility = ElemsBlink[i].style.visibility
+=='visible' ?'hidden':'visible';
+}
+</script>
+<meta charset="utf-8">
+    
+</head>
+
+<body onload="setInterval('Blink()',500)">
+<br>
+<br>
+<br>
+<br>
+<div style="text-align:center;">
+
+<font color="red"><h1><blink>Y A <br>   V E Z <br>   C O M O <br> E R E S <br>  C U R I O S A </blink></h1></font>
+
+<br>
+
+<font color="green"><h1><blink> TE <br>QUIERO <br> VIDITA  </blink></h1></font>
+</div>
+</body>
+</html>
